@@ -1,0 +1,8 @@
+# This inventory file contains all the feature flags for all targets
+# We use feature flags for critical changes where we need more control
+# on when to roll out to prod targets (e.g. change request required)
+
+---
+features:
+  dev:
+    myfeature: true

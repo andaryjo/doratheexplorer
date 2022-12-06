@@ -1,0 +1,6 @@
+---
+target:
+  skipper:
+    use:
+    - features
+  features: ${features:sandbox}
